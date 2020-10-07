@@ -1,0 +1,189 @@
+/*
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    min-height: 5vh;    
+}
+
+input[type="checkbox"]
+{
+    -webkit-appearance:none;   
+    visibility: hidden;
+    display: none;
+    border-right: 10px;
+}
+
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #092c3e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check
+{
+    background: #fff;
+    box-shadow: 0 0 0 1200px #092c3e;
+}
+
+.check:before
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check:before
+{
+    transform: translateX(-50px);
+}
+
+.check:after
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #092c3e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+
+input[type="checkbox"]:checked ~ .check:after
+{
+    transform: translateX(0);
+}
+*/
+body{
+    background-color: red;
+}
+
+a{
+    float: right;
+    text-decoration: none;
+    margin-right: 40px;
+    color: deepskyblue;
+}
+
+#img{
+    float: left;
+    margin-left: 40px;
+  
+    
+}
+#name{
+    font-size: 25px;
+    float: left;
+    padding: 3px;
+    
+}
+.heading{
+   
+    padding: 25px;
+    border: 0 40px 0 40px;
+}
+
+.firstcell{
+    color: deepskyblue;
+    padding: 80px;
+}
+
+
+i{
+    color: red;
+}
+
+#skills{
+    width: 300px;
+}
+
+hr{
+    width: 90%;
+    opacity: 0.3;
+}
+
+.thirdcell{
+    color: lightgrey;
+}
+
+#mybtn {
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: lightblue;
+  color: white; 
+  cursor: pointer; 
+  padding: 5px; 
+  border-radius: 10px; 
+  font-size: 18px;
+  float: right;
+  margin: 90% 30px 50px 90px;
+    
+
+}
+
+#mybtn:hover {
+  background-color: #555; 
+}
+
+body {
+  padding: 25px;
+  background-color: rgba(240, 240, 255, 0.5);
+  color: black;
+  font-size: 18px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+#mode{
+  float: right;
+  margin: 50px 30px 70px 90px;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: lightblue;
+  color: white; 
+  cursor: pointer; 
+  padding: 5px; 
+  border-radius: 10px; 
+  font-size: 18px;
+}
+
+#mode:hover {
+  background-color: #555;
+}
+
+#container{
+    height: 70%;
+    width: 60%;
+    margin: 10px auto;
+    
+    
+}
+
+table{
+    float: left;
+    
+}
+
+
+    
